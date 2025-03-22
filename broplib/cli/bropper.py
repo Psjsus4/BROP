@@ -92,7 +92,7 @@ class BROP:
 
     # ## Utils ## #
 
-    def try_exp(self, payload, expected, close: bool = True, reuse: bool = False, retry=False) -> (int, bytes):
+    def try_exp(self, payload, expected, close: bool = True, reuse: bool = False, retry=False):
         global stop
         crash = True
         try:
