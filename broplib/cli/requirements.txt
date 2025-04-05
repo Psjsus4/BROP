@@ -1,4 +1,0 @@
-rich~=13.2.0
-pwntools
-argparse
-datetime
