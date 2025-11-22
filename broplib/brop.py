@@ -123,7 +123,7 @@ class BROP:
             self.r.settimeout(5)
             self.open = True
             self.log.info(f"Connected to {self.host}:{self.port}")
-            self._start()
+            self.start()
         except (socket.error, Exception) as e:
             self.log.error(f"Connection failed: {str(e)}")
             raise e
